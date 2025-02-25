@@ -1,0 +1,14 @@
+com\lauracercas\moviecards\endtoendtest\MovieE2ETest.class
+com\lauracercas\moviecards\integrationtest\repositories\ActorJPAIT.class
+com\lauracercas\moviecards\endtoendtest\ActorE2ETest.class
+com\lauracercas\moviecards\unittest\controller\ActorControllerTest.class
+com\lauracercas\moviecards\unittest\model\MovieTest.class
+com\lauracercas\moviecards\integrationtest\repositories\MovieJPAIT.class
+com\lauracercas\moviecards\unittest\model\ActorTest.class
+com\lauracercas\moviecards\unittest\service\ActorServiceImplTest.class
+com\lauracercas\moviecards\unittest\controller\MovieControllerTest.class
+com\lauracercas\moviecards\unittest\service\CardServiceImplTest.class
+com\lauracercas\moviecards\endtoendtest\IndexE2ETest.class
+com\lauracercas\moviecards\unittest\model\CardTest.class
+com\lauracercas\moviecards\unittest\service\MovieServiceImplTest.class
+com\lauracercas\moviecards\unittest\controller\CardControllerTest.class

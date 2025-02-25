@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>演员列表</title>
+</head>
+<body>
+    <h1>演员列表</h1>
+    <a th:href="@{/actors/new}">添加新演员</a>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>出生日期</th>
+            <th>国家</th>
+            <th>操作</th>
+        </tr>
+        <tr th:each="actor : ${actors}">
+            <td th:text="${actor.id}"></td>
+            <td th:text="${actor.name}"></td>
+            <td th:text="${#dates.format(actor.birthDate, 'yyyy-MM-dd')}"></td>
+            <td th:text="${actor.country}"></td>
+            <td>
+                <a th:href="@{|/actors/edit/${actor.id}|}">编辑</a> |
+                <a th:href="@{|/actors/delete/${actor.id}|}" onclick="return confirm('确定删除该演员吗？')">删除</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

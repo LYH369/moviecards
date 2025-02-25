@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>电影详情</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: center; }
+        th { background-color: #f2f2f2; }
+        a, button { margin-top: 10px; }
+        form { display: inline; }
+    </style>
+</head>
+<body>
+    <h1 th:text="${movie.title}">电影标题</h1>
+    <p><strong>导演:</strong> <span th:text="${movie.director}">导演名</span></p>
+    <p><strong>发行年份:</strong> <span th:text="${movie.releaseYear}">年份</span></p>
+    <p><strong>片长:</strong> <span th:text="${movie.duration}">时长</span> 分钟</p>
+    <p><strong>国家:</strong> <span th:text="${movie.country}">国家</span></p>
+    <p><strong>类型:</strong> <span th:text="${movie.genre}">类型</span></p>
+    <p><strong>剧情简介:</strong> <span th:text="${movie.sinopsis}">剧情</span></p>
+
+    <h2>🎭 已关联演员列表</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>出生日期</th>
+            <th>操作</th>
+        </tr>
+        <tr th:each="actor : ${movie.actors}">
+            <td th:text="${actor.id}">1</td>
+            <td th:text="${actor.name}">演员姓名</td>
+            <td th:text="${#dates.format(actor.birthDate, 'yyyy-MM-dd')}">出生日期</td>
+            <td>
+                <form th:action="@{/movies/removeActor/{movieId}/{actorId}(movieId=${movie.id}, actorId=${actor.id})}" method="post">
+                    <button type="submit">❌ 移除</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <h3>➕ 为电影添加新演员</h3>
+    <form th:action="@{/movies/addActor/{movieId}(movieId=${movie.id})}" method="post">
+        <label>选择演员: 
+            <select name="actorId">
+                <option th:each="actor : ${allActors}" th:value="${actor.id}" th:text="${actor.name}">演员名</option>
+            </select>
+        </label>
+        <button type="submit">添加演员</button>
+    </form>
+
+    <br/>
+    <a th:href="@{/movies}">🔙 返回电影列表</a>
+</body>
+</html>

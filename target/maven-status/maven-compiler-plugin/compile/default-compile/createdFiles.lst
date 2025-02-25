@@ -1,0 +1,17 @@
+com\lauracercas\moviecards\model\Movie.class
+com\lauracercas\moviecards\model\Card.class
+com\lauracercas\moviecards\repositories\ActorJPA.class
+com\lauracercas\moviecards\service\movie\MovieServiceImpl.class
+com\lauracercas\moviecards\controller\ActorController.class
+com\lauracercas\moviecards\model\Actor.class
+com\lauracercas\moviecards\service\card\CardServiceImpl.class
+com\lauracercas\moviecards\service\card\CardService.class
+com\lauracercas\moviecards\service\actor\ActorServiceImpl.class
+com\lauracercas\moviecards\controller\MovieController.class
+com\lauracercas\moviecards\repositories\MovieJPA.class
+com\lauracercas\moviecards\util\Messages.class
+com\lauracercas\moviecards\controller\IndexController.class
+com\lauracercas\moviecards\controller\CardController.class
+com\lauracercas\moviecards\MovieCardsApplication.class
+com\lauracercas\moviecards\service\actor\ActorService.class
+com\lauracercas\moviecards\service\movie\MovieService.class

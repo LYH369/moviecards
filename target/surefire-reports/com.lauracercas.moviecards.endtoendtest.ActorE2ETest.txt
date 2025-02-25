@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: com.lauracercas.moviecards.endtoendtest.ActorE2ETest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 63.628 s <<< FAILURE! - in com.lauracercas.moviecards.endtoendtest.ActorE2ETest
+testListActors  Time elapsed: 40.972 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9KSG7QG', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF64C40C6A5+28789]
+	(No symbol) [0x00007FF64C375B20]
+	(No symbol) [0x00007FF64C208F9A]
+	(No symbol) [0x00007FF64C243598]
+	(No symbol) [0x00007FF64C2415AD]
+	(No symbol) [0x00007FF64C29555B]
+	(No symbol) [0x00007FF64C294B30]
+	(No symbol) [0x00007FF64C287103]
+	(No symbol) [0x00007FF64C24FFC0]
+	(No symbol) [0x00007FF64C251273]
+	GetHandleVerifier [0x00007FF64C751AED+3458237]
+	GetHandleVerifier [0x00007FF64C76829C+3550316]
+	GetHandleVerifier [0x00007FF64C75DB9D+3507565]
+	GetHandleVerifier [0x00007FF64C4D2C6A+841274]
+	(No symbol) [0x00007FF64C3809EF]
+	(No symbol) [0x00007FF64C37CB34]
+	(No symbol) [0x00007FF64C37CCD6]
+	(No symbol) [0x00007FF64C36C119]
+	BaseThreadInitThunk [0x00007FF841B37374+20]
+	RtlUserThreadStart [0x00007FF84329CC91+33]
+
+	at com.lauracercas.moviecards.endtoendtest.ActorE2ETest.setUp(ActorE2ETest.java:35)
+
+testNewActorTitle  Time elapsed: 10.983 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9KSG7QG', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF64C40C6A5+28789]
+	(No symbol) [0x00007FF64C375B20]
+	(No symbol) [0x00007FF64C208F9A]
+	(No symbol) [0x00007FF64C243598]
+	(No symbol) [0x00007FF64C2415AD]
+	(No symbol) [0x00007FF64C29555B]
+	(No symbol) [0x00007FF64C294B30]
+	(No symbol) [0x00007FF64C287103]
+	(No symbol) [0x00007FF64C24FFC0]
+	(No symbol) [0x00007FF64C251273]
+	GetHandleVerifier [0x00007FF64C751AED+3458237]
+	GetHandleVerifier [0x00007FF64C76829C+3550316]
+	GetHandleVerifier [0x00007FF64C75DB9D+3507565]
+	GetHandleVerifier [0x00007FF64C4D2C6A+841274]
+	(No symbol) [0x00007FF64C3809EF]
+	(No symbol) [0x00007FF64C37CB34]
+	(No symbol) [0x00007FF64C37CCD6]
+	(No symbol) [0x00007FF64C36C119]
+	BaseThreadInitThunk [0x00007FF841B37374+20]
+	RtlUserThreadStart [0x00007FF84329CC91+33]
+
+	at com.lauracercas.moviecards.endtoendtest.ActorE2ETest.setUp(ActorE2ETest.java:35)
+
+testPageLoad  Time elapsed: 11.662 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9KSG7QG', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF64C40C6A5+28789]
+	(No symbol) [0x00007FF64C375B20]
+	(No symbol) [0x00007FF64C208F9A]
+	(No symbol) [0x00007FF64C243598]
+	(No symbol) [0x00007FF64C2415AD]
+	(No symbol) [0x00007FF64C29555B]
+	(No symbol) [0x00007FF64C294B30]
+	(No symbol) [0x00007FF64C287103]
+	(No symbol) [0x00007FF64C24FFC0]
+	(No symbol) [0x00007FF64C251273]
+	GetHandleVerifier [0x00007FF64C751AED+3458237]
+	GetHandleVerifier [0x00007FF64C76829C+3550316]
+	GetHandleVerifier [0x00007FF64C75DB9D+3507565]
+	GetHandleVerifier [0x00007FF64C4D2C6A+841274]
+	(No symbol) [0x00007FF64C3809EF]
+	(No symbol) [0x00007FF64C37CB34]
+	(No symbol) [0x00007FF64C37CCD6]
+	(No symbol) [0x00007FF64C36C119]
+	BaseThreadInitThunk [0x00007FF841B37374+20]
+	RtlUserThreadStart [0x00007FF84329CC91+33]
+
+	at com.lauracercas.moviecards.endtoendtest.ActorE2ETest.setUp(ActorE2ETest.java:35)
+

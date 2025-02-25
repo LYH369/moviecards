@@ -1,0 +1,17 @@
+D:\moviecards\src\main\java\com\lauracercas\moviecards\model\Actor.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\movie\MovieService.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\controller\IndexController.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\controller\MovieController.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\repositories\ActorJPA.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\card\CardServiceImpl.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\actor\ActorService.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\controller\ActorController.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\model\Card.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\model\Movie.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\actor\ActorServiceImpl.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\MovieCardsApplication.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\repositories\MovieJPA.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\util\Messages.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\card\CardService.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\controller\CardController.java
+D:\moviecards\src\main\java\com\lauracercas\moviecards\service\movie\MovieServiceImpl.java
